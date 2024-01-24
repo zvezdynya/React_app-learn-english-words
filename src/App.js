@@ -1,9 +1,13 @@
 import './App.css';
+import Header from './components/Header/Header';
+import Words_table from './components/Words_table/Words_table';
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <>
+      <Header />
+      <Words_table />
+    </>
   );
 }
 
