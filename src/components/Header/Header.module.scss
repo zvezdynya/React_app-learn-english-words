@@ -1,50 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@400;700&family=Oswald&family=Roboto:wght@400;700&family=Rubik+Broken+Fax&display=swap');
+@import '../../styles/templates.scss';
+@import '../../styles/vars.scss';
 
 .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 110px;
-    padding: 10px 40px;
-    background-color: #f707074a;
+    width: 100%;
+    height: 80px;
+    padding: 10px 25px;
+    background-color: rgba(34, 120, 182, 0.6);
 }
 
 .logo_block {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 35%;
-    height: 110px;
+    width: 30%;
+    height: 90px;
 
     img {
-        width: 150px;
-        height: 100px;
+        width: 130px;
+        height: 80px;
     }
 
     .app_name {
         font-family: 'Rubik Broken Fax', system-ui;
-        font-size: 48px;
-        color: #063d8f;
+        font-size: 25px;
+        color: $headerColorText;
         padding: 0 10px;
     }
 }
-
-
 
 .nav_block {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 30%;
+    width: 20%;
     height: 100px;
 
     a {
         font-family: 'Rubik Broken Fax', system-ui;
-        font-size: 35px;
+        font-size: 18px;
         letter-spacing: 2px;
-        color: #063d8f;
+        color: $headerColorText;
         text-decoration: none;
     }
 }

@@ -1,0 +1,15 @@
+@mixin btnStyle{
+    background-color: #77aee7;
+        color: white;
+        font-size: 30px;
+        border: none;
+        padding: 15px 25px;
+        border-radius: 20px;
+        box-shadow: 10px 10px 15px 10px rgba(119, 173, 231, 0.3);
+        &:hover {
+            background-color: #65a4e8;
+            font-size: 32px;
+            padding: 16px 26px;
+            box-shadow: 12px 12px 17px 0px rgba(119, 173, 231, 0.4);
+        }
+}
