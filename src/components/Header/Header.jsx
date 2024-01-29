@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Header.module.scss';
 import loop from '../../assets/img/search.svg'
-import logo from '../../assets/img/butterfly_english.png';
+import logo from '../../assets/img/icons_book.png';
 
 const Header = () => {
     return (

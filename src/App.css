@@ -1,1 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inclusive+Sans&family=Rubik+Broken+Fax&display=swap');
+
+.container_app {
+    background-image: url('./assets/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

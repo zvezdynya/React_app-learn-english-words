@@ -8,9 +8,11 @@ import Words_table from './components/Words_table/Words_table';
 function App() {
   return (
     <React.Fragment>
-      <Header />
-      <Words_table />
-      <Cards />
+      <div className='container_app'>
+        <Header />
+        <Cards />
+        <Words_table />
+      </div>
     </React.Fragment>
   );
 }

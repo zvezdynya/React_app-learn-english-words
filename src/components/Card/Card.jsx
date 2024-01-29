@@ -6,18 +6,13 @@ import Arrow_next from '../arrow_next/Arrow_next';
 
 const Card = (props) => {
 
-    //onClick={() => handleClick}
-
     const [clicked, setClicked] = useState(false);
     const handleClick = () => {
         setClicked(!clicked);
     }
 
-    console.log(props);
-
     return (
         <React.Fragment >
-
             <div className={styles.container} >
                 <div className={styles.card_block}>
                     <Arrow_prew />
@@ -34,7 +29,6 @@ const Card = (props) => {
                     </div>
                     <Arrow_next />
                 </div>
-                <p>[{props.index}/{props.length}]</p>
             </div >
 
         </React.Fragment>
