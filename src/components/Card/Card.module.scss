@@ -11,7 +11,7 @@
 .card_block {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin: 0 auto;
 }
@@ -25,7 +25,7 @@
     width: 300px;
     height: 400px;
     padding: 15px;
-    margin: 10px;    
+    margin: 10px 30px;    
     border: 1.5px dotted black;
     border-radius: 10px;
     background-color: #2d3a2970;
@@ -51,9 +51,5 @@
 
     .check_block {
         grid-row: 3/4;
-    }
-
-    button.check_block {
-        @include btnStyle;
     }
 }

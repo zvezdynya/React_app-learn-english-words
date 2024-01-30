@@ -3,8 +3,9 @@ import styles from './Card.module.scss';
 import words from '../../data/words_list.json'
 import Arrow_prew from '../arrow_prev/Arrow_prev';
 import Arrow_next from '../arrow_next/Arrow_next';
-
+import BtnCheck from '../checkBtn/checkBtn';
 const Card = (props) => {
+    debugger
 
     const [clicked, setClicked] = useState(false);
     const handleClick = () => {
@@ -23,9 +24,9 @@ const Card = (props) => {
                             ? <p className={styles.check_block}
                                 clicked={clicked}
                                 onClick={handleClick}>{props.russian}</p>
-                            : <button className={styles.check_block}
-                                clicked={clicked}
-                                onClick={handleClick}>Проверить</button>}
+                            : <BtnCheck clicked={clicked}
+                                onClick={handleClick} />
+                        }
                     </div>
                     <Arrow_next />
                 </div>

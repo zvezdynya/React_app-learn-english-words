@@ -1,0 +1,6 @@
+@import '../../styles/templates.scss';
+@import '../../styles/vars.scss';
+
+button.check_block {
+    @include btnStyle;
+}
